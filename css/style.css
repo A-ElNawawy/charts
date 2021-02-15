@@ -1,0 +1,44 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+/* start general rules */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* end general rules */
+body{
+  color: #cbdbea;
+  background-color: #1f375d;
+  font-family: 'Cairo', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+main{
+  text-align: center;
+}
+main h1{
+  width: fit-content;
+  margin: 0 auto 20px;
+  border-bottom: 2px solid #cbdbea;
+}
+main p{
+  font-size: 20px;
+}
+.charts{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.chart{
+  background-color: #19203a;
+  margin: 20px 15px;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
