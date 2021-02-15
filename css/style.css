@@ -35,8 +35,10 @@ main p{
   background-color: #19203a;
   margin: 20px 15px;
   border-radius: 5px;
-  width: 400px;
-  height: 300px;
+  width: 98vw;
+  max-width: 400px;
+  max-height: 300px;
+  height: 90vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
